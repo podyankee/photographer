@@ -1,0 +1,17 @@
+-hlinks = ['about', 'skills', 'recent-projects', 'contact']
+-website = 'http://google.com'
+
+header
+	nav
+		ul
+			- for ( x = 0; x < hlinks.length; x++) {
+				li
+					a(href="#", data-scroll-target=".#{hlinks[x]}") #{hlinks[x]}
+			- }
+	.intro
+		.container
+			.intro-headings
+				h1 Richard Johnson
+				h4 Professional Photographer
+			a.continue-btn(href="#", data-scroll-target=".about") Continue
+	

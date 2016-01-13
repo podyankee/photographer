@@ -1,0 +1,75 @@
+.contact
+	.container-sm
+		h2 Contact me.
+	.contact-me-bg
+		.container
+			ul.contact-list
+				li
+					i.fa.fa-map-marker
+					h6 Address
+					p Oak street 293, Los Angeles, Unated States of America
+				li
+					i.fa.fa-envelope
+					h6 Email
+					p info@info.com
+				li
+					i.fa.fa-mobile
+					h6 Phone
+					p +(987) 123456789
+			script(type="text/javascript") var submitted=false;
+			iframe#hidden-iframe(name="hidden-iframe", style="display:none;", onload="if (submitted) {location.reload();}")
+			form#ss-form(action='https://docs.google.com/forms/d/1lvJQxyq97V5yeoJU_G8XNwxoPoCbUzc1QFzNpIjDRq8/formResponse', method='POST', target='hidden-iframe', onsubmit='submitted=true;')
+				ol.ss-question-list(role='list', style='padding-left: 0')
+					.name-input-wrap.ss-form-question.errorbox-good(role='listitem')
+						.ss-item.ss-text(dir='auto')
+							.ss-form-entry
+								label.ss-q-item-label(for='entry_1682108507')
+									.ss-q-title
+									.ss-q-help.ss-secondary-text(dir='auto')
+								input#entry_1682108507.ss-q-short(type='text', name='entry.1682108507', value='', dir='auto', aria-label='Name', title='Name',placeholder='Name')
+								#1744584767_errorMessage.error-message
+
+		
+					.email-input-wrap.ss-form-question.errorbox-good(role='listitem')
+						.ss-item.ss-text(dir='auto')
+							.ss-form-entry
+								label.ss-q-item-label(for='entry_1611681395')
+									.ss-q-title
+									.ss-q-help.ss-secondary-text(dir='auto')
+									input#entry_1611681395.ss-q-short(type='text', name='entry.1611681395', value='', dir='auto', aria-label='Email', title='Email', placeholder='Email')
+									#352892296_errorMessage.error-message
+
+		
+					.message-input-wrap.ss-form-question.errorbox-good(role='listitem')
+						.ss-item.ss-paragraph-text(dir='auto')
+							.ss-form-entry
+								label.ss-q-item-label(for='entry_236129378')
+									.ss-q-title
+									.ss-q-help.ss-secondary-text(dir='auto')
+								textarea#entry_236129378.ss-q-long(name='entry.236129378', rows='8', cols='0', dir='auto', aria-label='Message', placeholder='Your message ...')
+								#583750972_errorMessage.error-message
+
+					input(type='hidden', name='draftResponse', value='[,,"-3779611301229815404"]\
+		')
+					input(type='hidden', name='pageHistory', value='0')
+					input(type='hidden', name='fvv', value='0')
+					input(type='hidden', name='fbzx', value='-3779611301229815404')
+					.ss-item.ss-navigate
+					table#navigation-table
+						tbody
+							tr
+								td#navigation-buttons.ss-form-entry.goog-inline-block(dir='ltr')
+									input#ss-submit.jfk-button.jfk-button-action.button(type='submit', name='submit', value='Send')
+							
+			footer
+				ul.social-btn-list.clear-fix
+					li
+						a.twitter(href='#')
+							i.fa.fa-twitter
+					li
+						a.instagram(href='#')
+							i.fa.fa-instagram
+					li
+						a.facebook(href='#')
+							i.fa.fa-facebook
+				p Richard Johnson. All rights reserved.
